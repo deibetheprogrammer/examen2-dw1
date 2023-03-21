@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;900&display=swap');
+
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+h1{
+	font-size: 135px; 
+	font-weight: 700;
+}
+
+h2{
+	font-size: 75px; 
+	font-weight: 600;
+}
+
+h4{
+	font-size: 35px;
+	font-weight: 400;
+	padding: 45px;
+}
+
+h5{
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+p{
+	color: #929191;	
+	font-size: 15px;
+}
+
+
+/*
+.overlay{
+	background-color: rgba(0,0,0,0.80);
+	padding: 15% 0;
+}
+*/
+.section{
+	padding: 3% 0;
+}
+
+.btn-blanco{
+	background-color: white;
+	color: black;
+	padding: 20px 55px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+/*
+.btn-blanco i{
+	font-weight: bolder;
+}
+*/
+
+#HeroEstandar{
+	background-image: url("../img/home-grid-new-slide-4.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	padding: 20% 0;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	padding: 5% 0;
+}
+
+#cta h4{
+	font-size: 20px;
+	font-weight: 100;
+	padding: 20px;
+}
+
+#clients{
+	padding: 5% 0;
+}
