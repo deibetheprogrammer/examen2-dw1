@@ -4,6 +4,7 @@
 body{
 	font-family: 'Catamaran', sans-serif;
 	text-align: center;
+	color: var(--color-negro)
 }
 :root{
 	--color-negro:#282d33;
@@ -71,11 +72,32 @@ p{
 	letter-spacing: 1px;
 }
 
+.btn-blanco:hover{
+	background-color: var(--menu-hover);
+}
+
 /*
 .btn-blanco i{
 	font-weight: bolder;
 }
 */
+
+/*
+.nav-item:hover{
+	background-color: var(--menu-hover)!important;
+	color: white!important;
+}
+*/
+
+.nav-item a{
+	padding: 0 30px!important;
+	text-transform: uppercase!important;
+	font-weight: bold!important;
+}
+
+.nav-item i{
+	padding-left: 8px!important;
+}
 
 #HeroEstandar{
 	background-image: url("../img/home-grid-new-slide-4.jpg");
